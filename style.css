@@ -8,8 +8,8 @@
 }
 h1{
     text-align: center;
-    padding: 10px 10px 10px 10px;
-    margin: 190px 0px -10px -0px;
+    padding: 60px 10px 10px 10px;
+    margin: 0px 0px -10px -0px;
     background-color: #42A3BD;
     color:black;
     /*failsafe for older browsers such as explorer*/
@@ -217,23 +217,27 @@ h2{
   }
 
   /* Using pseudo class for first time */
-  a:link {
+  #jumplist a:link {
     color:darkblue;
   }
   
-  a:visited {
+  #jumplist a:visited {
     color: rgb(47, 170, 133);
   }
   
-  a:hover {
+  #jumplist a:hover {
     color: rgb(9, 255, 0);
   }
   
-  a:active {
+  #jumplist a:active {
     color: blue;
   }
 
-  /* */
+  #jumplist{
+    list-style-type: none;
+  }
+
+  /*Cant get media query to work :( I tried my best... */
   @media only screen and (max-width: 800px) {
     #adv1{
         font-size: small;
@@ -261,3 +265,29 @@ h2{
     }
   }
 
+  /* nav design*/
+  .nav-div{
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(88, 255, 88);
+      width: 100%;
+      position: fixed;
+  }
+
+  .nav-text{
+      margin: 0px 100px 0px 100px;
+  }
+
+  .nav-text:hover{
+      background-color: darkgreen;
+  }
+
+  .active{
+    background-color: rgb(50, 95, 163);
+  }
+
+  #jumpto-list{
+    list-style-type: none;
+    text-align: center;
+  }
