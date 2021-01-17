@@ -105,12 +105,7 @@ h2{
     font-weight: 200;
 }
 
-#mediapara{
-    text-align: center;
-    padding: 50px 0px 50px 0px;
-}
-
-#jumplist{
+.jumplist{
     text-align: center;
     list-style-type: none;
 }
@@ -121,6 +116,7 @@ h2{
 .mediaparagraph{grid-area: para;}
 .mediapics{grid-area: pics;}
 .mediavideos{grid-area: videos;}
+.mediaemail{grid-area: email;}
 
 .grid-container {
     display: grid;
@@ -129,6 +125,7 @@ h2{
       'para para para para para'
       'pics pics pics pics pics'
       'videos videos videos videos videos'
+      'email email email email email'
       'links links links links links';
     grid-gap: 10px;
     background-color: #2196F3;
