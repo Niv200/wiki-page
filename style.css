@@ -1,13 +1,20 @@
 :root {
     font-size: 30px;
     font-family: 'Mukta' serif;
-    background-color: #42A3BD;
+    background-color: #74cef5;
+    --headercolor: #0fa5fc;
+    --background: #74cef5;
+    --headertextcolor: black;
 }
-
 h1{
     text-align: center;
     padding: 10px 10px 10px 10px;
-    margin: 190px -10px -10px -10px;
+    margin: 190px 0px -10px -0px;
+    background-color: #42A3BD;
+    color:black;
+    /*failsafe for older browsers such as explorer*/
+    background-color: var(--headercolor);
+    color: var(--headertextcolor);
 }
 
 h2{
@@ -24,6 +31,7 @@ h2{
 
 #prosconspara{
     text-align: center;
+    padding: 150px 0px 150px 0px;
 }
 .proscontainer{
     display: flex;
@@ -60,7 +68,7 @@ h2{
     border-radius: 20%;
     line-height: 40px;
     box-shadow: 0px 20px 3px #913530;
-    font-weight: 800px;
+    font-weight: 800 ;
 }
 
 #adv1{
@@ -96,3 +104,45 @@ h2{
     font-size: 28px;
     font-weight: 200;
 }
+
+#mediapara{
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+#jumplist{
+    text-align: center;
+    list-style-type: none;
+}
+
+/*Trying grids on media page for first time*/
+.mediaheader{grid-area: header;}
+.medialinks{grid-area: links;}
+.mediaparagraph{grid-area: para;}
+.mediapics{grid-area: pics;}
+.mediavideos{grid-area: videos;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header'
+      'para para para para para'
+      'pics pics pics pics pics'
+      'videos videos videos videos videos'
+      'links links links links links';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .printer-img{
+      margin: 0px 40px 0px 40px;
+  }
