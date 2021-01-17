@@ -185,4 +185,34 @@ h2{
     text-align: center;
 }
 
+#shiny-sphere-text{
+    text-align: center;
+}
+
+#shiny-sphere{
+    margin: 0px auto 50px auto;
+    width: 40%;
+    
+    width: 100px;
+    height: 100px;
+    background-color: var(--background);
+    animation-name: shinysphere;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+  }
+  
+  @keyframes shinysphere {
+      0%{
+        background-color: var(--background);
+      }
+
+      50%{
+        background-color: rgb(51, 255, 0);
+      }
+
+      100%{
+        background-color: var(--background);
+      }
+  }
 
