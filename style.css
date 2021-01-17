@@ -1,4 +1,4 @@
-:root {
+:root{
     font-size: 30px;
     font-family: 'Mukta' serif;
     background-color: #74cef5;
@@ -118,7 +118,7 @@ h2{
 .mediavideos{grid-area: videos;}
 .mediaemail{grid-area: email;}
 
-.grid-container {
+.grid-container{
     display: grid;
     grid-template-areas:
       'header header header header header'
@@ -131,43 +131,45 @@ h2{
     background-color: #2196F3;
     padding: 10px;
     text-align: center;
-  }
+}
   
-  .grid-container > div {
+.grid-container > div{
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-  }
+}
 
-  .printer-img{
-      margin: 0px 40px 0px 40px;
-  }
+.printer-img{
+    margin: 0px 40px 0px 40px;
+}
   
-  #table{
+#table{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
     text-align: center;
     border-radius: 50px;
-  }
+}
   
-  #table td, #table th {
+#table td, #table th{
     border: 3px solid black;
     padding: 8px;
     text-align: center;
-  }
-
-#table tr:hover {background-color: #5b9fbd;}
-
-#table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: #4cbd50;
-  color: black;
 }
 
-#mapiframe {
+#table tr:hover{
+    background-color: #5b9fbd;
+}
+
+#table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4cbd50;
+    color: black;
+}
+
+#mapiframe{
     border: 1px solid black;
     width: 100%;
 }
@@ -200,45 +202,43 @@ h2{
     animation-duration: 4s;
     animation-iteration-count: infinite;
     border-radius: 50%;
-  }
+}
   
-  @keyframes shinysphere {
-      0%{
+@keyframes shinysphere{
+    0%{
         background-color: var(--background);
-      }
-
-      50%{
+    }
+    50%{
         background-color: rgb(51, 255, 0);
-      }
-
-      100%{
+    }
+    100%{
         background-color: var(--background);
-      }
-  }
+    }
+}
 
-  /* Using pseudo class for first time */
-  #jumplist a:link {
+/* Using pseudo class for first time */
+#jumplist a:link{
     color:darkblue;
-  }
-  
-  #jumplist a:visited {
+}
+
+#jumplist a:visited{
     color: rgb(47, 170, 133);
-  }
-  
-  #jumplist a:hover {
+}
+
+#jumplist a:hover{
     color: rgb(9, 255, 0);
-  }
-  
-  #jumplist a:active {
+}
+
+#jumplist a:active{
     color: blue;
-  }
+}
 
-  #jumplist{
+#jumplist{
     list-style-type: none;
-  }
+}
 
-  /*Cant get media query to work :( I tried my best... */
-  @media only screen and (max-width: 800px) {
+/*Cant get media query to work :( I tried my best... */
+@media only screen and (max-width: 800px){
     #adv1{
         font-size: small;
         line-height: 20px;
@@ -263,31 +263,31 @@ h2{
         font-size: small;
         line-height: 20px;
     }
-  }
+}
 
-  /* nav design*/
-  .nav-div{
-      text-align: center;
-      margin: 0;
-      padding: 0;
-      background-color: rgb(88, 255, 88);
-      width: 100%;
-      position: fixed;
-  }
+/* nav design*/
+.nav-div{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(88, 255, 88);
+    width: 100%;
+    position: fixed;
+}
 
-  .nav-text{
-      margin: 0px 100px 0px 100px;
-  }
+.nav-text{
+    margin: 0px 100px 0px 100px;
+}
 
-  .nav-text:hover{
-      background-color: darkgreen;
-  }
+.nav-text:hover{
+    background-color: darkgreen;
+}
 
-  .active{
+.active{
     background-color: rgb(50, 95, 163);
-  }
+}
 
-  #jumpto-list{
+#jumpto-list{
     list-style-type: none;
     text-align: center;
-  }
+}
