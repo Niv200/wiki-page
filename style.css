@@ -166,3 +166,23 @@ h2{
   background-color: #4cbd50;
   color: black;
 }
+
+#mapiframe {
+    border: 1px solid black;
+    width: 100%;
+}
+
+#contacttitle{
+    text-align: center;
+}
+
+#contactlist{
+    text-align: center;
+    list-style-type: none;
+}
+
+#contact-para{
+    text-align: center;
+}
+
+
