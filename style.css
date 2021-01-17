@@ -216,3 +216,48 @@ h2{
       }
   }
 
+  /* Using pseudo class for first time */
+  a:link {
+    color:darkblue;
+  }
+  
+  a:visited {
+    color: rgb(47, 170, 133);
+  }
+  
+  a:hover {
+    color: rgb(9, 255, 0);
+  }
+  
+  a:active {
+    color: blue;
+  }
+
+  /* */
+  @media only screen and (max-width: 800px) {
+    #adv1{
+        font-size: small;
+        line-height: 20px;
+    }
+    #adv2{
+        font-size: small;
+        line-height: 20px;
+    }
+    #adv3{
+        font-size: small;
+        line-height: 20px;
+    }
+    #dis1{
+        font-size: small;
+        line-height: 20px;
+    }
+    #dis2{
+        font-size: small;
+        line-height: 20px;
+    }
+    #dis3{
+        font-size: small;
+        line-height: 20px;
+    }
+  }
+
