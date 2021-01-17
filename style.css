@@ -143,3 +143,26 @@ h2{
   .printer-img{
       margin: 0px 40px 0px 40px;
   }
+  
+  #table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  #table td, #table th {
+    border: 3px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+#table tr:hover {background-color: #5b9fbd;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4cbd50;
+  color: black;
+}
