@@ -38,7 +38,7 @@ h2{
 }
 
 .proscontainer > div {
-    background-color: #f1f1f1;
+    background-color: #40FBA3;
     width: 400px;
     height: 300px;
     margin: 10px;
@@ -46,10 +46,12 @@ h2{
     font-size: 30px;
     border-radius: 20%;
     line-height: 40px;
+    box-shadow: 0px 20px 5px #309143;
+    font-weight: 800;
 }
 
 .conscontainer > div {
-    background-color: #f1f1f1;
+    background-color: #ff5c53;
     width: 400px;
     height: 300px;
     margin: 10px;
@@ -57,4 +59,40 @@ h2{
     font-size: 30px;
     border-radius: 20%;
     line-height: 40px;
+    box-shadow: 0px 20px 3px #913530;
+    font-weight: 800px;
+}
+
+#adv1{
+    margin: 30px 20px 10px 20px;
+    font-weight: 200;
+}
+
+#adv2{
+    margin: 30px 40px 10px 40px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+#adv3{
+    margin: 20px 40px 10px 40px;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+#dis1{
+    margin: 30px 20px 10px 20px;
+    font-weight: 200;
+}
+
+#dis2{
+    margin: 30px 40px 10px 40px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+#dis3{
+    margin: 20px 40px 10px 40px;
+    font-size: 28px;
+    font-weight: 200;
 }
